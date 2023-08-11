@@ -1,0 +1,330 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+    background-color: #567189;
+    border-color: #CFB997;
+    color: #CFB997;
+}
+
+.btn:hover {
+    background-color: #CFB997;
+}
+
+nav {
+    background-color: #567189;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.logo img {
+    width: 70px;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition: all 1s solid;
+}
+
+.optmenu:hover {
+    color: #717171;
+    background-color: #6d6d6d;
+    transition: all 1s solid;
+    border-radius: 5px;
+}
+
+.optmenu:active {
+    background-color: rgb(88, 221, 85);
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: #8d8f94;
+    border: 3px solid #ffffff;
+}
+
+.navbar-toggler:hover {
+    background-color: #525d6f;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffffff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.banner1 {
+    background-image: url("../img/desarrollo.jpg");
+    position: relative;
+    height: calc(100vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background-color: rgb(88, 88, 88);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: d 2s ease infinite alternate;
+}
+
+.banner2 {
+    background-color: #7B8FA1;
+    position: relative;
+    height: calc(10vh);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    animation: a 3s ease infinite alternate;
+}
+
+.titulo1 {
+    font-size: 40px;
+}
+
+.parrafo1 {
+    font-size: 20px;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.icono1 {
+    width: 80px;
+}
+
+.sect-ubi {
+    background-color: hsl(217, 15%, 38%);
+}
+
+.sct-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion3 {
+    background-color: #CFB997;
+}
+
+.sct-formulario_formulario {
+    background-color: #CFB997;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sct-formulario_titulo {
+    font-size: 70px;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+.sct-formulario_formulario .sct-formulario_formulario_sub-titulo {
+    margin-bottom: 10px;
+}
+
+.sct-formulario_formulario .form-todo {
+    width: 46%;
+}
+
+.sct-formulario_formulario .form-comment {
+    width: 46%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sct-formulario_formulario .form-comment p {
+    align-items: center;
+}
+
+.sct-formulario_formulario .subtitulo-inf {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.sct-formulario_formulario #txt-nombre {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-correo {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-telefono {
+    display: flex;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.sct-formulario_formulario #txt-comentario {
+    height: 100px;
+    width: 90%;
+    margin-bottom: 20px;
+    align-self: flex-end;
+}
+
+.sct-formulario_formulario .btn-enviar {
+    background: #525d6f;
+    border-width: 0;
+    height: 40px;
+    width: 20%;
+    margin-bottom: 20px;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sct-formulario .btn-enviar:hover {
+    background-color: #567189;
+    color: white;
+    border: 0 solid white;
+    border-radius: 2px;
+}
+
+@media (max-width: 576px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+}
+
+@media(min-width: 576px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+}
+
+@media(min-width: 768px) {
+    .pd {
+        font-size: 25px;
+    }
+    .ti-1 {
+        font-size: 25px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 47px;
+    }
+    .ti-3 {
+        font-size: 22px;
+        color: azure;
+    }
+}
+
+@media(min-width: 992px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 36px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+}
+
+@media(min-width: 1200px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 35px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+}
+
+@media(min-width: 1400px) {
+    .pd {
+        font-size: 19px;
+    }
+    .ti-1 {
+        font-size: 19px;
+        color: azure;
+    }
+    .ti-2 {
+        font-size: 35px;
+    }
+    .ti-3 {
+        font-size: 16px;
+        color: azure;
+    }
+}
